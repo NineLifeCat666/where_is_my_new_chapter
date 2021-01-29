@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
-public class RanobesTests {
+public class RanobesTests extends TestBase{
     String url = "https://ranobes.com/ranobe/53844-tales-of-herding-gods.html";
 
     @Test
